@@ -11,7 +11,7 @@ from flask_login import LoginManager, UserMixin, login_user, logout_user,\
 import requests
 
 load_dotenv()
-
+#trials
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'top secret!'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite'
